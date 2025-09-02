@@ -25,7 +25,6 @@ class OpeningRangeBreakout(Strategy):
 
         # Buy signal
         if self.sma_short[-2] < self.sma_long[-2] and self.sma_short[-1] > self.sma_long[-1]:
-            # Enter with stop loss 5% below entry, take profit 10% above
             self.buy()
 
         # Sell signal (for shorting if desired)
