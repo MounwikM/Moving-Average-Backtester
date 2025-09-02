@@ -7,5 +7,7 @@ To find the 50-day moving average, add the stock’s closing price from the last
 
 In this code the stock will be bought if the short moving average crosses the long moving average, and will sell if the long moving average crosses the short moving average. 
 
+**Remember to download pandas, yfinance and backtesting into your terminal**
+
 
 
