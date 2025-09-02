@@ -1,4 +1,3 @@
-
 # Import pandas, yfinance, and backtesting
 import pandas as pan
 import yfinance as yf
